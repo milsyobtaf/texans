@@ -28,12 +28,12 @@ Tags: light, brown, two-columns, flexible-width, right-sidebar, theme-options, t
 /* try to use custom fonts trough css3 (opera 10, safari 3.1 and ff 3.1 only) */
 @font-face {
   font-family: "Union";
-  src: url(fonts/union.ttf) format("truetype");
+  src: url("fonts/union.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Share";
-  src: url(fonts/share.ttf) format("truetype");
+  src: url("fonts/share.ttf") format("truetype");
 }
 
 
@@ -142,7 +142,7 @@ table td, table th{
 }
 
 table th{
-  background: #ab967e url(images/table-header.gif) repeat-x left top;
+  background: #ab967e url("images/table-header.gif") repeat-x left top;
   color: #fff;
   text-transform: uppercase;
   font-weight: normal;
@@ -268,7 +268,7 @@ blockquote{
   border: 1px dotted #937d68;
   font-style: italic;
   color: #937d68;
-  background: #fff url(images/blockquote.png) no-repeat 4px top;
+  background: #fff url("images/blockquote.png") no-repeat 4px top;
 }
 
 blockquote p{
@@ -406,14 +406,14 @@ blockquote p{
 
 /* search */
 .search-block{
-  background: transparent url(images/search-bg.png) no-repeat left top;
+  background: transparent url("images/search-bg.png") no-repeat left top;
   position: absolute;
   right: 2em;
   bottom: 1em;
 }
 
 .search-block .searchform-wrap{
-  background: transparent url(images/search-go.png) no-repeat right top;
+  background: transparent url("images/search-go.png") no-repeat right top;
   width: 146px;
   height: 30px;
 }
@@ -450,7 +450,7 @@ blockquote p{
 /* main navigation */
 
 #nav-wrap1{
-  background: transparent url(images/nav-left.png) no-repeat left top;
+  background: transparent url("images/nav-left.png") no-repeat left top;
   padding-left: 25px;
   position: absolute;
   z-index: 100;
@@ -461,7 +461,7 @@ blockquote p{
 
 
 #nav-wrap2{
-  background: transparent url(images/nav-bg.png) no-repeat right top;
+  background: transparent url("images/nav-bg.png") no-repeat right top;
   padding-right: 25px;
   height: 64px;
   float: left;
@@ -474,7 +474,7 @@ blockquote p{
 }
 
 #nav-wrap2 ul#nav{
-    background: transparent url(images/nav-div.png) no-repeat right top;
+    background: transparent url("images/nav-div.png") no-repeat right top;
     padding-right: 2px;
     display: block;
     height: 64px;
@@ -486,7 +486,7 @@ blockquote p{
   display:inline;
   float: left;
   position: relative;
-  background: transparent url(images/nav-div.png) no-repeat left top;
+  background: transparent url("images/nav-div.png") no-repeat left top;
   padding-left: 2px;
 }
 
@@ -517,7 +517,7 @@ blockquote p{
   display: block;
   height: 100%;
   width: 100%;
-  background: transparent url(images/nav-active.png) repeat-x left top;
+  background: transparent url("images/nav-active.png") repeat-x left top;
   z-index: -1;
   margin: 0;
   padding: 0;
@@ -534,7 +534,7 @@ blockquote p{
 
 #nav-wrap2 ul#nav ul {
   position: absolute;
-  background: #f7f5ef url(images/side-menu-active.png) repeat-x left bottom;
+  background: #f7f5ef url("images/side-menu-active.png") repeat-x left bottom;
   display: none;
   width:200px;
   top: 36px;
@@ -692,7 +692,7 @@ blockquote p{
   text-align: center;
   float: left;
   line-height: 100%;
-  background: #fff url(images/date-bg.png) no-repeat left bottom;
+  background: #fff url("images/date-bg.png") no-repeat left bottom;
   border: 1px solid #fff;
 }
 
@@ -718,7 +718,7 @@ blockquote p{
 }
 
 .post p.post-author{
-  background: transparent url(images/post-info.png) no-repeat left top;
+  background: transparent url("images/post-info.png") no-repeat left top;
   margin: 0 0 0 43px;
   padding: 0 12px;
   font-size: 110%;
@@ -743,7 +743,7 @@ blockquote p{
 
 /* tags */
 .post p.tags{
-  background: transparent url(images/tag.gif) no-repeat left top;
+  background: transparent url("images/tag.gif") no-repeat left top;
   font-size: 80%;
   color: #a8937b;
   padding: 0 0 0 13px;
@@ -803,7 +803,7 @@ ul#comments ul{
 
 .comment-mask{
   display: block;
-  background: transparent url(images/comment-shadow.png) no-repeat right bottom;
+  background: transparent url("images/comment-shadow.png") no-repeat right bottom;
   padding: 12px 6px 6px 0px;
   position: relative;
 }
@@ -815,7 +815,7 @@ ul#comments ul{
 .comment-mask .avatar{
   width: 90px;
   height: 90px;
-  background: transparent url(images/avatar.png) no-repeat center center;
+  background: transparent url("images/avatar.png") no-repeat center center;
   float: left;
   position: relative;
 }
@@ -834,15 +834,15 @@ ul#comments ul{
 }
 
 .comment-wrap1{
-  background: transparent url(images/comment-bg-right.png) no-repeat right bottom;
+  background: transparent url("images/comment-bg-right.png") no-repeat right bottom;
 }
 
 .comment-wrap2{
-  background: transparent url(images/comment-bg-left.png) no-repeat left bottom;
+  background: transparent url("images/comment-bg-left.png") no-repeat left bottom;
 }
 
 .comment-head{
-  background: #96816d url(images/comment-head.png) repeat-x left bottom;
+  background: #96816d url("images/comment-head.png") repeat-x left bottom;
   color: #fff;
   position: relative;
 }
@@ -852,7 +852,7 @@ ul#comments ul{
 }
 
 .admincomment .comment-head{
-  background: #125f9f url(images/comment-head-admin.png) repeat-x left bottom;
+  background: #125f9f url("images/comment-head-admin.png") repeat-x left bottom;
 }
 
 .comment-head p{
@@ -941,7 +941,7 @@ ul.menu{
 }
 
 ul.menu li{
-  background: transparent url(images/div-h.png) repeat-x left bottom;
+  background: transparent url("images/div-h.png") repeat-x left bottom;
   display: block;
   padding: 0 0 3px 0;
   width: 100%;
@@ -973,7 +973,7 @@ ul.menu .fadeThis span.hover {
   display: block;
   height: 100%;
   width: 100%;
-  background: #f7f5ef url(images/side-menu-active.png) repeat-x left bottom;
+  background: #f7f5ef url("images/side-menu-active.png") repeat-x left bottom;
   z-index: -1;
 }
 
@@ -1013,7 +1013,7 @@ ul.menu li.cat-item a.rss{
   position: absolute;
   padding:0;
   display: none;
-  background: transparent url(images/side-menu-rss.png) no-repeat center center;
+  background: transparent url("images/side-menu-rss.png") no-repeat center center;
   width: 24px;
   height: 22px;
   top: -15px;
@@ -1041,13 +1041,13 @@ ul.menu li li .fadeThis span.hover {
 /* box */
 
 .box{
-  background: transparent url(images/box-shadow.png) no-repeat bottom right;
+  background: transparent url("images/box-shadow.png") no-repeat bottom right;
   padding: 8px 12px;
   margin: 2em 0 1em;
 }
 /*knocking out the dog-eared page style of the sidebar widget
 .box .titlewrap{
-  background: transparent url(images/box-title-left.png) no-repeat top left;
+  background: transparent url("images/box-title-left.png") no-repeat top left;
   padding-left: 35px;
 }
 */
@@ -1060,7 +1060,7 @@ ul.menu li li .fadeThis span.hover {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Sans, FreeSans, Jamrul, Garuda, Kalimati;
   font-weight: normal;
   letter-spacing: -0.04em;
-  background: transparent url(images/box-title-bg.png) no-repeat top right;
+  background: transparent url("images/box-title-bg.png") no-repeat top right;
   display: block;
   padding: 0;
   margin: 0;
@@ -1086,13 +1086,13 @@ ul.menu li li .fadeThis span.hover {
 }
 
 
-.box .wrapleft{ background: #fff url(images/box-left-bg.png) repeat-y top left; }
-.box .wrapright{ background: transparent url(images/box-right-bg.png) repeat-y top right; }
+.box .wrapleft{ background: #fff url("images/box-left-bg.png") repeat-y top left; }
+.box .wrapright{ background: transparent url("images/box-right-bg.png") repeat-y top right; }
 
-.box .bl{ background: transparent url(images/box-bl.png) no-repeat bottom left; }
-.box .tl{ background: transparent url(images/box-tl.png) no-repeat top left; }
-.box .br{ background: transparent url(images/box-br.png) no-repeat bottom right; }
-.box .tr{ background: transparent url(images/box-tr.png) no-repeat top right; }
+.box .bl{ background: transparent url("images/box-bl.png") no-repeat bottom left; }
+.box .tl{ background: transparent url("images/box-tl.png") no-repeat top left; }
+.box .br{ background: transparent url("images/box-br.png") no-repeat bottom right; }
+.box .tr{ background: transparent url("images/box-tr.png") no-repeat top right; }
 
 .box .the-content{
   padding: .4em 1em .6em 1em;
@@ -1120,7 +1120,7 @@ img.creativecommons{
 }
 
 #footer a.rss{
-  background: transparent url(images/rss.png) no-repeat left top;
+  background: transparent url("images/rss.png") no-repeat left top;
   padding-left: 20px;
 }
 
@@ -1168,7 +1168,7 @@ ul#footer-widgets.widgetcount-6 li.widget{ width: 16%; }
 /* no point to add more than 6 widgets, unreadable */
 
 ul#footer-widgets h6.title{
-  background: transparent url(images/div-h2.gif) repeat-x left bottom;
+  background: transparent url("images/div-h2.gif") repeat-x left bottom;
   padding: .1em .4em;
   font-style: italic;
 }
@@ -1188,7 +1188,7 @@ ul#footer-widgets li.widget li{
   list-style-type: none;
   padding: .2em .6em;
   display: block;
-  background: transparent url(images/div-h2.gif) repeat-x left bottom;
+  background: transparent url("images/div-h2.gif") repeat-x left bottom;
   position: relative;
   margin-top: 1px;
 }
